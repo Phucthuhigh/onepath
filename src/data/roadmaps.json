@@ -1,0 +1,50 @@
+[
+  {
+    "id": "raw-a",
+    "source": "Roadmap A — \"Basic Editing Channel\"",
+    "steps": [
+      "Get familiar with the software",
+      "Basic cutting",
+      "Transitions",
+      "Audio",
+      "Color",
+      "Export & optimize for the platform"
+    ]
+  },
+  {
+    "id": "raw-b",
+    "source": "Roadmap B — \"Editing Craft\" blog",
+    "steps": [
+      "Install & interface",
+      "Basic cutting",
+      "Text / Captions",
+      "Music & beat-matching",
+      "Color grading",
+      "Render"
+    ]
+  },
+  {
+    "id": "raw-c",
+    "source": "Roadmap C — \"Edit Video From Zero\" course",
+    "steps": [
+      "Storytelling mindset",
+      "Cutting technique",
+      "Transition effects",
+      "Sound design",
+      "Color grading",
+      "Publishing"
+    ]
+  },
+  {
+    "id": "raw-d",
+    "source": "Roadmap D — \"CapCut Community\"",
+    "steps": [
+      "Project setup",
+      "Cutting to the beat",
+      "Trend-driven transitions",
+      "Beat-matching",
+      "Color presets",
+      "Platform-standard export"
+    ]
+  }
+]

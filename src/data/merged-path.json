@@ -1,0 +1,50 @@
+{
+  "skill": "Video editing for beginners",
+  "generatedFromRoadmaps": ["raw-a", "raw-b", "raw-c", "raw-d"],
+  "scannedCount": 24,
+  "discardedCount": 9,
+  "checkpoints": [
+    {
+      "id": "c1",
+      "order": 1,
+      "title": "Get familiar with the interface & organize your project",
+      "why": "All 4 roadmaps start with setting up the right software foundation before touching footage.",
+      "skillFocus": "Setup"
+    },
+    {
+      "id": "c2",
+      "order": 2,
+      "title": "Basic cutting & trimming",
+      "why": "The one thing every roadmap agrees on — cutting is the root skill behind every video, learned before any effect.",
+      "skillFocus": "Editing"
+    },
+    {
+      "id": "c3",
+      "order": 3,
+      "title": "Transitions & effects",
+      "why": "Roadmaps A, C, and D all place transitions right after basic cutting — exactly when your video needs to feel smoother.",
+      "skillFocus": "Transitions"
+    },
+    {
+      "id": "c4",
+      "order": 4,
+      "title": "Audio & syncing to the beat",
+      "why": "The \"Short-form content\" goal needs cuts that land on the beat — prioritized before color since it affects retention more.",
+      "skillFocus": "Audio"
+    },
+    {
+      "id": "c5",
+      "order": 5,
+      "title": "Basic color grading",
+      "why": "Every roadmap agrees: color is a final polish step, not a foundational one.",
+      "skillFocus": "Color"
+    },
+    {
+      "id": "c6",
+      "order": 6,
+      "title": "Export & optimize for the platform",
+      "why": "A mandatory final step across all 4 roadmaps — wrong export settings undo all the work before it.",
+      "skillFocus": "Publishing"
+    }
+  ]
+}
