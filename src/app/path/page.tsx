@@ -60,7 +60,7 @@ export default function PathPage() {
         <div className="flex items-center gap-2">
           <Compass className="size-5 text-path" strokeWidth={2.5} aria-hidden />
           <span className="font-heading text-sm font-bold tracking-tight text-foreground">
-            OnePath
+            ClearPath
           </span>
         </div>
         <div className="flex min-w-0 flex-1 items-center justify-center gap-3 sm:flex-none sm:justify-start">

@@ -21,7 +21,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "OnePath — Your One Learning Path",
+  title: "ClearPath — Your One Learning Path",
   description:
     "Enter a skill and your level, and get back a single learning path — credibility-filtered, not a menu to choose from.",
 };

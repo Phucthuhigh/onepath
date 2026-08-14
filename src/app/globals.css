@@ -41,7 +41,7 @@
   --color-card-foreground: var(--card-foreground);
   --color-card: var(--card);
 
-  /* OnePath semantic tokens — "the path" is the only color that moves */
+  /* ClearPath semantic tokens — "the path" is the only color that moves */
   --color-path: var(--path);
   --color-path-foreground: var(--path-foreground);
   --color-path-soft: var(--path-soft);

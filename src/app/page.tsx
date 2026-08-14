@@ -60,7 +60,7 @@ export default function LandingPage() {
       <div className="relative z-10 w-full max-w-xl space-y-8 text-center">
         <div className="flex items-center justify-center gap-2">
           <Compass className="size-5 text-path" strokeWidth={2.5} aria-hidden />
-          <span className="font-heading text-sm font-bold tracking-tight">OnePath</span>
+          <span className="font-heading text-sm font-bold tracking-tight">ClearPath</span>
         </div>
 
         <div className="space-y-3">

@@ -44,10 +44,10 @@ const QUESTIONS_SCHEMA = {
 };
 
 export async function generateQuestions(skill: string): Promise<AgentQuestion[]> {
-  const prompt = `You are OnePath's learning-path personalization system.
+  const prompt = `You are ClearPath's learning-path personalization system.
 The user wants to learn: "${skill}".
 
-OnePath's core principle: every screen has exactly ONE correct next action. Never ask an open-ended (free text) question — only multiple-choice questions with a single answer, so the system decides on the user's behalf.
+ClearPath's core principle: every screen has exactly ONE correct next action. Never ask an open-ended (free text) question — only multiple-choice questions with a single answer, so the system decides on the user's behalf.
 
 Generate exactly 2 to 4 short questions to personalize a learning path for "${skill}" — for example: current skill level, main goal for learning it, how much time they can commit per week. Each question should have 2 to 4 short, clear, mutually exclusive options.
 
@@ -113,7 +113,7 @@ export async function generateCheckpointSkeleton(
   answers: AgentAnswer[]
 ): Promise<CheckpointSkeleton[]> {
   const answersText = answers.map((a) => `- ${a.label}`).join("\n");
-  const prompt = `You are OnePath's "Merge Engine": you unify knowledge about a skill into ONE linear learning path, not a list of options to pick from.
+  const prompt = `You are ClearPath's "Merge Engine": you unify knowledge about a skill into ONE linear learning path, not a list of options to pick from.
 
 Skill: "${skill}"
 The user's personalization answers:
@@ -218,7 +218,7 @@ export async function selectResourcesForCheckpoints(
     })
     .join("\n\n");
 
-  const prompt = `You are OnePath's source-credibility scoring system, for the skill "${skill}".
+  const prompt = `You are ClearPath's source-credibility scoring system, for the skill "${skill}".
 
 Credibility rubric (0-100), applied consistently across every checkpoint:
 - Instructor/source credibility (experience, expertise, official platform): 40%

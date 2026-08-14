@@ -2,7 +2,7 @@ import type { AppState, CheckpointStatus, GeneratedPath } from "./types";
 
 // v2: schema changed (dynamic skill/path replace the static video-editing vertical) —
 // bumped so stale v1 localStorage from earlier testing doesn't get loaded as-is.
-const STORAGE_KEY = "onepath.state.v2";
+const STORAGE_KEY = "clearpath.state.v2";
 
 export function initialProgressForPath(
   path: GeneratedPath

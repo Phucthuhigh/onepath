@@ -50,7 +50,7 @@ export default function PersonalizePage() {
 
           <div className="flex items-center gap-2">
             <Compass className="size-5 text-path" strokeWidth={2.5} aria-hidden />
-            <span className="font-heading text-sm font-bold tracking-tight">OnePath</span>
+            <span className="font-heading text-sm font-bold tracking-tight">ClearPath</span>
           </div>
 
           <div className="space-y-1.5">
